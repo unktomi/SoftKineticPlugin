@@ -939,10 +939,10 @@ ADepthSenseActor::ADepthSenseActor(const FObjectInitializer &Init) :
 void ADepthSenseActor::BeginPlay()
 {
 	Runner = new DepthSenseRunner(this);
-	Camera = NewObject<UDepthSenseTexture>();
-	Camera->SetDimensions(FIntPoint(640, 480));
-	Camera->UpdateResource();
-    FrameSource = Runner;
+	CameraOutput = NewObject<UDepthSenseTexture>();
+	CameraOutput->SetDimensions(FIntPoint(640, 480));
+	CameraOutput->UpdateResource();
+	FrameSource = Runner;
 	Runner->BeginPlay();
 	Super::BeginPlay();
 }
@@ -981,24 +981,24 @@ void ADepthSenseActor::Tick(float  DeltaSeconds)
 				MeshComp->ClearAllMeshSections();
 			}
 			// camera feed
-			if (Camera != nullptr && ColorWidth != 0 && ColorHeight != 0)
+			if (CameraOutput != nullptr && ColorWidth != 0 && ColorHeight != 0)
 			{
-				FIntPoint Dim = Camera->GetDimensions();
+				FIntPoint Dim = CameraOutput->GetDimensions();
 				if (Dim.X != ColorWidth || Dim.Y != ColorHeight)
 				{
-					Camera->SetDimensions(FIntPoint(ColorWidth, ColorHeight));
-					Camera->UpdateResource();
+					CameraOutput->SetDimensions(FIntPoint(ColorWidth, ColorHeight));
+					CameraOutput->UpdateResource();
 				}
-				Camera->SetCurrentFrame(CurrentCameraFrame);
+				CameraOutput->SetCurrentFrame(CurrentCameraFrame);
 			}
 			// audio feed
 			if (AudioOutput != nullptr && AudioData.Num() > 0)
 			{
 				AudioOutput->NumChannels = Channels;
 				AudioOutput->SampleRate = SampleRate;
-				AudioOutput->EnqueuePCMData(AudioData.GetData(), AudioData.Num());
-				AudioData.Reset();
+				AudioOutput->EnqueuePCMData(AudioData.GetData(), AudioData.Num());			
 			}
+			AudioData.Reset();
 			bMeshPending = true;
 		}
 	}
