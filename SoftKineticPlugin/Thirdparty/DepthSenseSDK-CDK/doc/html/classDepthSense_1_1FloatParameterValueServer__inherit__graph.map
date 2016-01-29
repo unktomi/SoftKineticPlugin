@@ -1,0 +1,9 @@
+<map id="DepthSense::FloatParameterValueServer" name="DepthSense::FloatParameterValueServer">
+<area shape="rect" id="node2" href="$classDepthSense_1_1FloatParameterValueImpl.html" title="DepthSense::FloatParameter\lValueImpl" alt="" coords="5,321,195,362"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1BaseValueImpl.html" title="DepthSense::BaseValueImpl" alt="" coords="94,171,281,197"/>
+<area shape="rect" id="node8" href="$classDepthSense_1_1BaseValueServer.html" title="DepthSense::BaseValueServer" alt="" coords="197,245,397,272"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="101,96,275,123"/>
+<area shape="rect" id="node5" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="44,13,175,40"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="199,6,333,47"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1ParameterValueServer.html" title="DepthSense::ParameterValue\lServer" alt="" coords="220,321,415,362"/>
+</map>

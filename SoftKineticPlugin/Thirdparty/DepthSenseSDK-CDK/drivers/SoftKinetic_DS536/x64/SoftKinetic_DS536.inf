@@ -1,0 +1,132 @@
+; Cypress specific USB Driver Installation INF for the DepthSense 536 
+; Processor support for x86 based platforms
+; Operating system:  Windows 7, Windows 8, Windows 8.1
+; (c) Copyright 2014 SoftKinetic Sensors NV.
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=Image
+ClassGUID={6bdd1fc6-810f-11d0-bec7-08002be2092f}
+provider=%DS536_Provider%
+CatalogFile=SoftKinetic_DS536.cat
+DriverVer=01/29/2015,1.0.0.002
+
+[SourceDisksNames]
+1=%DS536_Install%,,,
+
+[SourceDisksFiles]
+SoftKinetic_DS536.sys = 1
+
+[DestinationDirs]
+DS536.Files.Ext = 10,System32\Drivers
+
+[ControlFlags]
+ExcludeFromSelect = *
+
+[Manufacturer]
+%DS536_Provider%=Device,NT,NTx86,NTamd64
+
+;for all platforms
+[Device]
+%VID_2113&PID_5360.DeviceDesc%=DS536, USB\VID_2113&PID_5360
+%VID_2113&PID_5361.DeviceDesc%=DS536, USB\VID_2113&PID_5361
+%VID_2113&PID_5362.DeviceDesc%=DS536, USB\VID_2113&PID_5362
+
+
+;for windows 2000 non intel platforms
+[Device.NT]
+%VID_2113&PID_5360.DeviceDesc%=DS536, USB\VID_2113&PID_5360
+%VID_2113&PID_5361.DeviceDesc%=DS536, USB\VID_2113&PID_5361
+%VID_2113&PID_5362.DeviceDesc%=DS536, USB\VID_2113&PID_5362
+
+
+;for x86 platforms
+[Device.NTx86]
+%VID_2113&PID_5360.DeviceDesc%=DS536, USB\VID_2113&PID_5360
+%VID_2113&PID_5361.DeviceDesc%=DS536, USB\VID_2113&PID_5361
+%VID_2113&PID_5362.DeviceDesc%=DS536, USB\VID_2113&PID_5362
+
+
+;for x64 platforms
+[Device.NTamd64]
+%VID_2113&PID_5360.DeviceDesc%=DS536, USB\VID_2113&PID_5360
+%VID_2113&PID_5361.DeviceDesc%=DS536, USB\VID_2113&PID_5361
+%VID_2113&PID_5362.DeviceDesc%=DS536, USB\VID_2113&PID_5362
+
+
+[DS536]
+CopyFiles=DS536.Files.Ext
+AddReg=DS536.AddReg
+
+[DS536.HW]
+AddReg=DS536.AddReg.Guid
+
+[DS536.Services]
+Addservice = DS536,2,DS536.AddService
+
+[DS536.NT]
+CopyFiles=DS536.Files.Ext
+AddReg=DS536.AddReg
+
+[DS536.NT.HW]
+AddReg=DS536.AddReg.Guid
+
+[DS536.NT.Services]
+Addservice = DS536,2,DS536.AddService
+
+
+[DS536.NTx86]
+CopyFiles=DS536.Files.Ext
+AddReg=DS536.AddReg
+
+[DS536.NTx86.HW]
+AddReg=DS536.AddReg.Guid
+
+[DS536.NTx86.Services]
+Addservice = DS536,2,DS536.AddService
+
+[DS536.NTamd64]
+CopyFiles=DS536.Files.Ext
+AddReg=DS536.AddReg
+
+[DS536.NTamd64.HW]
+AddReg=DS536.AddReg.Guid
+
+[DS536.NTamd64.Services]
+Addservice = DS536,2,DS536.AddService
+
+
+[DS536.AddReg]
+; Deprecating - do not use in new apps to identify a SoftKinetic DepthSense 536 driver
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,SoftKinetic_DS536.sys
+; You may optionally include a check for DriverBase in your application to check for a SoftKinetic DepthSense 536 driver
+HKR,,DriverBase,,SoftKinetic_DS536.sys
+HKR,"Parameters","MaximumTransferSize",0x10001,4096
+HKR,"Parameters","DebugLevel",0x10001,2
+HKR,,FriendlyName,,%DS536_Description%
+
+[DS536.AddService]
+DisplayName    = %DS536_Description%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\SoftKinetic_DS536.sys
+AddReg         = DS536.AddReg
+LoadOrderGroup = Base
+
+[DS536.Files.Ext]
+SoftKinetic_DS536.sys
+
+[DS536.AddReg.Guid]
+HKR,,DriverGUID,,%DS536.GUID%
+
+[Strings]
+DS536_Provider    = "SoftKinetic"
+DS536_Description = "SoftKinetic DepthSense 536"
+DS536_Install     = "SoftKinetic DepthSense 536 Driver Installation Disk"
+VID_2113&PID_5360.DeviceDesc="SoftKinetic DepthSense 536"
+VID_2113&PID_5361.DeviceDesc="SoftKinetic DepthSense 536"
+VID_2113&PID_5362.DeviceDesc="SoftKinetic DepthSense 536"
+DS536.GUID="{AE18AA60-7F6A-11d4-97DD-00010229B959}"
+DS536_Unused      = "."

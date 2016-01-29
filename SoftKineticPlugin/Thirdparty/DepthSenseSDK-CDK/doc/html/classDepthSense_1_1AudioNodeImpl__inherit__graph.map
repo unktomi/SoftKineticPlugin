@@ -1,0 +1,7 @@
+<map id="DepthSense::AudioNodeImpl" name="DepthSense::AudioNodeImpl">
+<area shape="rect" id="node6" href="$classDepthSense_1_1Core_1_1AudioNodeServer.html" title="Base class for audio stream data sources. " alt="" coords="50,321,248,362"/>
+<area shape="rect" id="node2" href="$classDepthSense_1_1NodeImpl.html" title="DepthSense::NodeImpl" alt="" coords="72,171,227,197"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="62,96,236,123"/>
+<area shape="rect" id="node4" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="5,13,136,40"/>
+<area shape="rect" id="node5" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="161,6,295,47"/>
+</map>

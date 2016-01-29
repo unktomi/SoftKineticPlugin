@@ -1,0 +1,8 @@
+<map id="DepthSense::EventHandler&lt; InterfaceType, DataType &gt;" name="DepthSense::EventHandler&lt; InterfaceType, DataType &gt;">
+<area shape="rect" id="node3" href="$classDepthSense_1_1ClosureHandler.html" title="DepthSense::ClosureHandler\l\&lt; InterfaceType, DataType \&gt;" alt="" coords="500,5,689,46"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1FunctionHandler.html" title="DepthSense::FunctionHandler\l\&lt; InterfaceType, DataType \&gt;" alt="" coords="497,70,692,111"/>
+<area shape="rect" id="node5" href="$classDepthSense_1_1GenericFunctionHandler.html" title="DepthSense::GenericFunction\lHandler\&lt; InterfaceType,\l DataType \&gt;" alt="" coords="497,136,693,192"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1GenericMethodHandler.html" title="DepthSense::GenericMethod\lHandler\&lt; InterfaceType,\l DataType \&gt;" alt="" coords="500,216,689,272"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1MethodHandler.html" title="DepthSense::MethodHandler\l\&lt; InterfaceType, DataType \&gt;" alt="" coords="501,297,689,338"/>
+<area shape="rect" id="node2" href="$classDepthSense_1_1EventHandlerBase.html" title="DepthSense::EventHandlerBase" alt="" coords="6,151,213,177"/>
+</map>

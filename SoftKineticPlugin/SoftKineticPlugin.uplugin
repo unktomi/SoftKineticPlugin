@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SoftKineticPlugin",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "unktomi",
+	"CreatedByURL": "github.com/unktomi",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "SoftKineticPlugin",
+			"Type": "Runtime"
+		},
+		{
+			"Name": "SoftKineticEditorPlugin",
+			"Type": "Editor"
+		}
+	]
+}

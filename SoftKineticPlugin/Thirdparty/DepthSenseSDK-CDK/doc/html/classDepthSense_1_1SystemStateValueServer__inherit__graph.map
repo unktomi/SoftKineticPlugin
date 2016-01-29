@@ -1,0 +1,8 @@
+<map id="DepthSense::SystemStateValueServer" name="DepthSense::SystemStateValueServer">
+<area shape="rect" id="node2" href="$classDepthSense_1_1SystemStateValueImpl.html" title="DepthSense::SystemStateValueImpl" alt="" coords="5,245,240,272"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1BaseValueImpl.html" title="DepthSense::BaseValueImpl" alt="" coords="149,171,336,197"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1BaseValueServer.html" title="DepthSense::BaseValueServer" alt="" coords="264,245,464,272"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="155,96,329,123"/>
+<area shape="rect" id="node5" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="99,13,229,40"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="254,6,388,47"/>
+</map>

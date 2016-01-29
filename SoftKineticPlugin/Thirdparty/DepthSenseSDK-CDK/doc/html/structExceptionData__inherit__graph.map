@@ -1,0 +1,13 @@
+<map id="ExceptionData" name="ExceptionData">
+<area shape="rect" id="node3" href="$structArgumentExceptionData.html" title="ArgumentExceptionData" alt="" coords="376,5,539,32"/>
+<area shape="rect" id="node4" href="$structConfigurationExceptionData.html" title="ConfigurationExceptionData" alt="" coords="366,56,549,83"/>
+<area shape="rect" id="node5" href="$structInitializationExceptionData.html" title="InitializationExceptionData" alt="" coords="370,107,545,133"/>
+<area shape="rect" id="node6" href="$structInvalidOperationExceptionData.html" title="InvalidOperationExceptionData" alt="" coords="358,157,557,184"/>
+<area shape="rect" id="node7" href="$structIOExceptionData.html" title="IOExceptionData" alt="" coords="397,208,517,235"/>
+<area shape="rect" id="node8" href="$structNotSupportedExceptionData.html" title="NotSupportedExceptionData" alt="" coords="364,259,551,285"/>
+<area shape="rect" id="node9" href="$structStreamingExceptionData.html" title="StreamingExceptionData" alt="" coords="374,309,541,336"/>
+<area shape="rect" id="node10" href="$structTimeoutExceptionData.html" title="TimeoutExceptionData" alt="" coords="381,360,534,387"/>
+<area shape="rect" id="node11" href="$structTransportExceptionData.html" title="TransportExceptionData" alt="" coords="377,411,538,437"/>
+<area shape="rect" id="node12" href="$structUnauthorizedAccessExceptionData.html" title="UnauthorizedAccessExceptionData" alt="" coords="344,461,571,488"/>
+<area shape="rect" id="node2" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="6,226,141,267"/>
+</map>

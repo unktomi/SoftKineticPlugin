@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$classDepthSense_1_1Core_1_1AudioSampleDataServer.html" title="DepthSense::Core::AudioSample\lDataServer\&lt; T \&gt;" alt="" coords="95,5,308,46"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1Core_1_1ColorSampleDataServer.html" title="DepthSense::Core::ColorSample\lDataServer\&lt; T \&gt;" alt="" coords="96,70,307,111"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1Core_1_1DepthSampleDataServer.html" title="DepthSense::Core::DepthSample\lDataServer\&lt; T \&gt;" alt="" coords="94,135,309,177"/>
+</map>

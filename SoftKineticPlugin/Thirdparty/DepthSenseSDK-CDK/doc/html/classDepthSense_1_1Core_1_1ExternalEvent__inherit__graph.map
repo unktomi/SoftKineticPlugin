@@ -1,0 +1,5 @@
+<map id="DepthSense::Core::ExternalEvent" name="DepthSense::Core::ExternalEvent">
+<area shape="rect" id="node3" href="$classDepthSense_1_1Core_1_1NodeEvent.html" title="A class holding the data related to a node event. " alt="" coords="5,171,203,197"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1Core_1_1PowerEvent.html" title="DepthSense::Core::PowerEvent" alt="" coords="227,171,431,197"/>
+<area shape="rect" id="node2" href="$classDepthSense_1_1Core_1_1CoreEvent.html" title="DepthSense::Core::CoreEvent" alt="" coords="119,5,313,32"/>
+</map>

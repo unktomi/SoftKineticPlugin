@@ -1,0 +1,7 @@
+<map id="DepthSense::Core::DeviceServer" name="DepthSense::Core::DeviceServer">
+<area shape="rect" id="node2" href="$classDepthSense_1_1Core_1_1CoreEvent_1_1Source.html" title="DepthSense::Core::CoreEvent\l::Source" alt="" coords="5,171,200,213"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1DeviceImpl.html" title="DepthSense::DeviceImpl" alt="" coords="224,179,387,205"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="218,96,392,123"/>
+<area shape="rect" id="node5" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="161,13,292,40"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="317,6,451,47"/>
+</map>

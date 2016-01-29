@@ -1,0 +1,437 @@
+.. _yaml_file_format:
+
+****************
+YAML File format
+****************
+
+Overview
+********
+
+The camera calibration exchange file provides the following features:
+
+* Shareable
+* Human readable
+* Self contained
+  
+`YAML <http://yaml.org/>`_ is a human friendly data serialization standard for all programming interfaces. There is a wide selection of libraries for different programming languages.
+
+.. note::
+
+  This document details the new format of the camera calibration exchange file format.
+
+.. note::
+
+  Some fields are optional. If they are not specified, their value at runtime will be the default value DepthSenseSDK is providing.
+
+.. _conventions:
+
+Conventions
+***********
+
+* All fields names must be lower case.
+* Each file must define a calibration for a single device.
+
+.. note::
+
+  The rationale to have a single calibration is that having multiple calibrations defined would slightly modify the syntax.
+
+Type field
+**********
+
+The YAML file includes a `type` field. This field indicates the device for which the calibration applies. The supported devices are:
+
+* DS536, DS536A, DS536B
+* DS326, DS325B
+* SUNDIVA, SKCDK
+
+.. code-block:: yaml
+    :linenos:
+
+    type: DS536
+
+Prv number
+**********
+
+The prv number of the camera. This field is optional and stored as a integer.
+
+.. code-block:: yaml
+    :linenos:
+
+    prv number: 255
+
+Production id
+*************
+
+The production id of the camera. This field is optional and stored as a string.
+
+.. code-block:: yaml
+    :linenos:
+
+    production id: "the ProductionID"
+
+Lens type
+*********
+
+The lens type of the camera. This field is optional and should have one of the following values:
+
+* N2A_BC170301A
+* NEWMAX_DS_8365A
+
+.. code-block:: yaml
+    :linenos:
+
+    lens type: N2A_BC170301A
+
+Sensor type
+***********
+
+The sensor type of the camera. This field is optional and should have one of the following values:
+
+* X2544
+* OPT8241
+* MLX75023
+
+.. code-block:: yaml
+    :linenos:
+
+    sensor type: X2544
+
+Illumination type
+*****************
+
+The illumination type of the camera. This field is optional and should have one of the following values:
+
+* TARA_75X51
+* TARA_59X45
+* TOMA_75X51
+* TOMA_59X45
+* TOMA_75X51_4W
+* TOMA_59X45_4W
+
+.. code-block:: yaml
+    :linenos:
+
+    illumination type: TARA_75X51
+
+Calibration tool string
+***********************
+
+The calibration tool string is a free text that can be used to store the calibration tool
+used to generate the calibration. This field is optional and is stored as a string.
+
+.. code-block:: yaml
+    :linenos:
+
+    calibration tool string: "Calibration Tool String"
+
+Calibration tool timestamp
+**************************
+
+The calibration tool timestamp is a free integer that can be used to store the calibration tool
+version used to generate the calibration. This field is optional and is stored as an integer.
+
+.. code-block:: yaml
+    :linenos:
+
+    calibration tool timestamp: 1234
+
+The YAML file includes a `system calibration` section. This section references all the system calibration that are not subject to change between configurations of the device.
+
+Depth Intrinsics
+****************
+
+The depth intrinsics of the camera is a list of intrinsics referenced by the resolution at which they apply. This field is optional.
+
+.. code-block:: yaml
+    :linenos:
+
+    depth intrinsics:
+      - width: 320
+        height: 240
+        fx: 226.7270050048828
+        fy: 227.0639953613281
+        cx: 162.0760040283203
+        cy: 118.3690032958984
+        k1: -0.146369993686676
+        k2: 0.07795160263776779
+        p1: 0
+        p2: 0
+        k3: 0
+
+Intrinsics field
+================
+
+This field holds the intrinsic parameters of the depth lens. The order of the parameters is as follow:
+
+* the width of the frame
+* the height of the frame
+* the focal length along the x axis in pixel unit
+* the focal length along the y axis in pixel unit
+* the central point location along the x axis in pixel unit
+* the central point location along the y axis in pixel unit
+* the first order radial distortion coefficient, k1
+* the second order radial distortion coefficient, k2
+* the first order tangential distortion coefficient, p1
+* the second order tangential distortion coefficient, p2
+* the third order radial distortion coefficient, k3
+
+Color intrinsics
+****************
+
+The color intrinsics of the camera is a list of intrinsics referenced by the resolution at which they apply. This field is optional.
+
+.. code-block:: yaml
+    :linenos:
+
+    color intrinsics:
+      - width: 640
+        height: 480
+        fx: 226.7270050048828
+        fy: 227.0639953613281
+        cx: 162.0760040283203
+        cy: 118.3690032958984
+        k1: -0.146369993686676
+        k2: 0.07795160263776779
+        p1: 0
+        p2: 0
+        k3: 0
+
+Intrinsics field
+================
+
+This field holds the intrinsic parameters of the color lens. The order of the parameters is as follow:
+
+* the width of the frame
+* the height of the frame
+* the focal length along the x axis in pixel unit
+* the focal length along the y axis in pixel unit
+* the central point location along the x axis in pixel unit
+* the central point location along the y axis in pixel unit
+* the first order radial distortion coefficient, k1
+* the second order radial distortion coefficient, k2
+* the first order tangential distortion coefficient, p1
+* the second order tangential distortion coefficient, p2
+* the third order radial distortion coefficient, k3
+
+Extrinsics
+**********
+
+This field holds the extrinsic parameters of the system. This field is optional. The convention used is a right handed coordinate system.
+The order of the parameters is as follow:
+
+* rotation matrix: r00.. r22, the coefficients of the 3x3 rotation matrix serialized from left to right and top to bottom
+* translation: t0.. t2, the translation vector, each component is expressed in millimeters
+
+.. code-block:: yaml
+    :linenos:
+
+    extrinsics:
+      rotation matrix: [1,0,0,0,1,0,0,0,1]
+      translation: [0,0,0]
+
+List of Configurations
+**********************
+
+This field holds a list of calibration matching a given predefined configuration.
+
+Configuration
+=============
+
+UID field
+---------
+
+This field holds the UID of the configuration on which the calibration applies. This field is mandatory.
+
+.. code-block:: yaml
+    :linenos:
+
+    configurations:
+      - uid: 0x0101
+
+.. _phase_offset_field:
+
+Phase offset field
+------------------
+
+This field holds a constant offset to be applied to each pixel of the phase map of the first modulation frequency.
+The value must be expressed in brads. This field is optional.
+
+.. note::
+
+  This field is deprecated. Prefer to use the `gradient distortion correction` field instead.
+
+.. code-block:: yaml
+    :linenos:
+
+    configurations:
+      - uid: 0x0101
+        phase offset: 123
+
+Phase offset 2 field
+--------------------
+
+See :ref:`phase_offset_field`.
+
+.. _cyclic_error_correction_field:
+
+Cyclic error correction field
+-----------------------------
+
+This field holds the coefficients to be used when applying `Cyclic Error Correction` on the phase map of the first modulation frequency. This field is optional.
+
+.. code-block:: yaml
+    :linenos:
+
+    configurations:
+      - uid: 0x0101
+        cyclic error correction: 
+          algorithm: 2
+          coefficients: [0.3700000047683716,0,0.1000000014901161,0,0,0,0,0,0,0,0,0,0,0,0,0.02999999932944775]
+
+Algorithm field
+...............
+
+This field holds the type of algorithm to be applied for the `Cyclic Error Correction`. The following values are supported:
+
+* 0: explicitly disabled
+* 1: C2S2C4S4 algorithm, see `algorithm 1 documentation <http://readthereports/Cyclic-Error-Correction/cyclic_error_shape.html#algorithm-id-1>`_
+* 2: Indirect_12_harmonics_model algorithm, see `algorithm 2 documentation <http://readthereports/Cyclic-Error-Correction/cyclic_error_shape.html#algorithm-id-2-proposal>`_
+
+.. todo::
+
+    Support name of models instead of a numeric value for algorithm.
+    
+Coefficients field
+..................
+
+This fields holds a vector of coefficients. The number and the definition of them depend on the selected algorithm.
+
+* algorithm = 0: this field should not be specified.
+* algorithm = 1: this field should contain 4 floats. Coefficients are stored in the following order: a1, b1, a2, b2
+* algorithm = 2: this field should contain 16 floats. Coefficients are stored in the following order: a1, b1, .., a6, b6, a8, b8, a12, b12
+
+Cyclic error correction 2 field
+-------------------------------
+
+See :ref:`cyclic_error_correction_field`.
+
+.. _gradient_distortion_correction_field:
+
+Gradient distortion correction field
+------------------------------------
+
+This field holds the coefficients to be used when applying `Gradient Distortion Correction` on the phase map of the first modulation frequency. This field is optional.
+
+.. code-block:: yaml
+    :linenos:
+
+    configurations:
+      - uid: 0x0101
+        gradient distortion correction: 
+          algorithm: 1
+          coefficients: [-0.3926990032196045,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+Algorithm field
+...............
+
+This field holds the type of algorithm to be applied for the `Gradient Distortion Correction`. The following values are supported:
+
+* 0: explicitly disabled.
+* 1: uses a 5th order polynomial.
+* 2: uses one 5th order polynomial for the left columns and another 5th order polynomial for the right columns.
+
+.. todo::
+
+    Support name of models instead of a numeric value for algorithm.
+
+Coefficients field
+..................
+
+This fields holds a vector of coefficients. The number and the definition of them depend on the selected algorithm.
+
+* algorithm = 0: this field should not be specified.
+* algorithm = 1: this field should contain 21 floats.
+* algorithm = 2: this field should contain 42 floats.
+
+Gradient distortion correction 2 field
+--------------------------------------
+
+See :ref:`gradient_distortion_correction_field`.
+
+Temperature compensation field
+------------------------------
+
+.. todo::
+
+  To be completed
+
+Temperature calibration field
+-----------------------------
+
+.. todo::
+
+  To be completed
+  
+Complete sample
+***************
+
+.. code-block:: yaml
+    :linenos:
+
+    %YAML 1.2
+    ---
+    type: DS536
+    prv number: 255
+    production id: "ProductionID"
+    lens type: N2A_BC170301A
+    sensor type: X2544
+    illumination type: TARA_75X51
+    calibration tool string: "Calibration Tool String"
+    calibration tool timestamp: 1234
+    depth intrinsics:
+      - width: 320
+        height: 240
+        fx: 226.7270050048828
+        fy: 227.0639953613281
+        cx: 162.0760040283203
+        cy: 118.3690032958984
+        k1: -0.146369993686676
+        k2: 0.07795160263776779
+        p1: 0
+        p2: 0
+        k3: 0
+    color intrinsics:
+      - width: 640
+        height: 480
+        fx: 226.7270050048828
+        fy: 227.0639953613281
+        cx: 162.0760040283203
+        cy: 118.3690032958984
+        k1: -0.146369993686676
+        k2: 0.07795160263776779
+        p1: 0
+        p2: 0
+        k3: 0
+    extrinsics:
+      rotation matrix: [1,0,0,0,1,0,0,0,1]
+      translation: [0,0,0]    
+    configurations:
+      - uid: 0x0101
+        phase offset: 123
+        phase offset 2: 123
+    #    temperature calibration: []
+    #    temperature compensation:
+    #       algorithm: 0
+    #       coefficients: []
+        cyclic error correction: 
+            algorithm: 2
+            coefficients: [0.3700000047683716,0,0.1000000014901161,0,0,0,0,0,0,0,0,0,0,0,0,0.02999999932944775]
+        cyclic error correction 2: 
+            algorithm: 0
+        gradient distortion correction: 
+            algorithm: 1
+            coefficients: [-0.3926990032196045,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        gradient distortion correction 2: 
+            algorithm: 0
+
+

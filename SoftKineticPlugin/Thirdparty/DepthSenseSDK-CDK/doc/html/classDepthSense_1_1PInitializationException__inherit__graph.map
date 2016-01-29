@@ -1,0 +1,4 @@
+<map id="DepthSense::PInitializationException" name="DepthSense::PInitializationException">
+<area shape="rect" id="node2" href="$classDepthSense_1_1InitializationException.html" title="The type of the exception thrown when an initialization error has occurred. " alt="" coords="10,155,179,197"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1Exception.html" title="The base exception class. " alt="" coords="15,80,173,107"/>
+</map>

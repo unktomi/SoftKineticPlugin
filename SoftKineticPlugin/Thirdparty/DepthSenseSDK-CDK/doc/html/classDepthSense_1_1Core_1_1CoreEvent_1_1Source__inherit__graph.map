@@ -1,0 +1,8 @@
+<map id="DepthSense::Core::CoreEvent::Source" name="DepthSense::Core::CoreEvent::Source">
+<area shape="rect" id="node2" href="$classDepthSense_1_1Core_1_1DeviceServer.html" title="A class holding the data related to a device. " alt="" coords="262,45,437,86"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1Core_1_1NodeServer.html" title="DepthSense::Core::NodeServer" alt="" coords="248,111,451,137"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1Core_1_1AudioNodeServer.html" title="Base class for audio stream data sources. " alt="" coords="519,5,718,46"/>
+<area shape="rect" id="node5" href="$classDepthSense_1_1Core_1_1ColorNodeServer.html" title="Base class for color stream data sources. " alt="" coords="521,70,717,111"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1Core_1_1DepthNodeServer.html" title="Base class for depth stream data sources. " alt="" coords="519,135,719,177"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1Core_1_1UnsupportedNode.html" title="Base class for unsupported sources. " alt="" coords="499,201,738,228"/>
+</map>

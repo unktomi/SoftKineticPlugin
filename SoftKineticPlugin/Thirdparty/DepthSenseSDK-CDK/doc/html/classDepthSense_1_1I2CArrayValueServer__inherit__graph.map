@@ -1,0 +1,8 @@
+<map id="DepthSense::I2CArrayValueServer" name="DepthSense::I2CArrayValueServer">
+<area shape="rect" id="node2" href="$classDepthSense_1_1I2CArrayValueImpl.html" title="DepthSense::I2CArrayValueImpl" alt="" coords="5,245,213,272"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1BaseValueImpl.html" title="DepthSense::BaseValueImpl" alt="" coords="129,171,316,197"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1BaseValueServer.html" title="DepthSense::BaseValueServer" alt="" coords="237,245,437,272"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="135,96,309,123"/>
+<area shape="rect" id="node5" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="79,13,209,40"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="234,6,368,47"/>
+</map>

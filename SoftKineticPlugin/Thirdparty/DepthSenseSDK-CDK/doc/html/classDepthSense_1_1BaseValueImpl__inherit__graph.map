@@ -1,0 +1,29 @@
+<map id="DepthSense::BaseValueImpl" name="DepthSense::BaseValueImpl">
+<area shape="rect" id="node5" href="$classDepthSense_1_1BaseValueServer.html" title="DepthSense::BaseValueServer" alt="" coords="668,341,868,368"/>
+<area shape="rect" id="node18" href="$classDepthSense_1_1BoolParameterValueImpl.html" title="DepthSense::BoolParameter\lValueImpl" alt="" coords="945,6,1132,47"/>
+<area shape="rect" id="node19" href="$classDepthSense_1_1FloatParameterValueImpl.html" title="DepthSense::FloatParameter\lValueImpl" alt="" coords="943,71,1134,113"/>
+<area shape="rect" id="node20" href="$classDepthSense_1_1GPIOValueImpl.html" title="DepthSense::GPIOValueImpl" alt="" coords="673,149,863,176"/>
+<area shape="rect" id="node21" href="$classDepthSense_1_1HardwareVersionImpl.html" title="DepthSense::HardwareVersionImpl" alt="" coords="657,211,879,237"/>
+<area shape="rect" id="node22" href="$classDepthSense_1_1I2CArrayValueImpl.html" title="DepthSense::I2CArrayValueImpl" alt="" coords="664,276,872,303"/>
+<area shape="rect" id="node23" href="$classDepthSense_1_1IntParameterValueImpl.html" title="DepthSense::IntParameter\lValueImpl" alt="" coords="681,621,855,662"/>
+<area shape="rect" id="node24" href="$classDepthSense_1_1RegionOfInterestValueImpl.html" title="DepthSense::RegionOfInterest\lValueImpl" alt="" coords="669,686,867,727"/>
+<area shape="rect" id="node25" href="$classDepthSense_1_1RegisterValueImpl.html" title="DepthSense::RegisterValueImpl" alt="" coords="665,392,871,419"/>
+<area shape="rect" id="node26" href="$classDepthSense_1_1SystemCalibrationValueImpl.html" title="DepthSense::SystemCalibration\lValueImpl" alt="" coords="665,447,871,489"/>
+<area shape="rect" id="node27" href="$classDepthSense_1_1SystemInfoValueImpl.html" title="DepthSense::SystemInfoValueImpl" alt="" coords="657,519,879,545"/>
+<area shape="rect" id="node28" href="$classDepthSense_1_1SystemStateValueImpl.html" title="DepthSense::SystemStateValueImpl" alt="" coords="651,569,885,596"/>
+<area shape="rect" id="node2" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="190,367,365,393"/>
+<area shape="rect" id="node3" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="8,337,139,364"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="6,389,141,430"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1GPIOValueServer.html" title="DepthSense::GPIOValueServer" alt="" coords="937,137,1140,164"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1HardwareVersionServer.html" title="DepthSense::HardwareVersion\lServer" alt="" coords="939,189,1138,230"/>
+<area shape="rect" id="node8" href="$classDepthSense_1_1I2CArrayValueServer.html" title="DepthSense::I2CArrayValue\lServer" alt="" coords="947,254,1131,295"/>
+<area shape="rect" id="node9" href="$classDepthSense_1_1ParameterValueServer.html" title="DepthSense::ParameterValue\lServer" alt="" coords="941,319,1136,361"/>
+<area shape="rect" id="node14" href="$classDepthSense_1_1RegisterValueServer.html" title="DepthSense::RegisterValue\lServer" alt="" coords="947,385,1130,426"/>
+<area shape="rect" id="node15" href="$classDepthSense_1_1SystemCalibrationValueServer.html" title="DepthSense::SystemCalibration\lValueServer" alt="" coords="935,450,1142,491"/>
+<area shape="rect" id="node16" href="$classDepthSense_1_1SystemInfoValueServer.html" title="DepthSense::SystemInfoValue\lServer" alt="" coords="939,515,1138,557"/>
+<area shape="rect" id="node17" href="$classDepthSense_1_1SystemStateValueServer.html" title="DepthSense::SystemStateValue\lServer" alt="" coords="933,581,1144,622"/>
+<area shape="rect" id="node10" href="$classDepthSense_1_1BoolParameterValueServer.html" title="DepthSense::BoolParameter\lValueServer" alt="" coords="1197,69,1384,110"/>
+<area shape="rect" id="node11" href="$classDepthSense_1_1FloatParameterValueServer.html" title="DepthSense::FloatParameter\lValueServer" alt="" coords="1195,258,1386,299"/>
+<area shape="rect" id="node12" href="$classDepthSense_1_1IntParameterValueServer.html" title="DepthSense::IntParameter\lValueServer" alt="" coords="1203,383,1378,425"/>
+<area shape="rect" id="node13" href="$classDepthSense_1_1RegionOfInterestValueServer.html" title="DepthSense::RegionOfInterest\lValueServer" alt="" coords="1192,569,1389,610"/>
+</map>

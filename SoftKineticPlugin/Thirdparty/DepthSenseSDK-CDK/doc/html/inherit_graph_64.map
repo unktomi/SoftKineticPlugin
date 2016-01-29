@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classDepthSense_1_1EventHandlerBase.html" title="DepthSense::EventHandlerBase" alt="" coords="6,167,213,193"/>
+<area shape="rect" id="node2" href="$classDepthSense_1_1EventHandler.html" title="DepthSense::EventHandler\l\&lt; InterfaceType, DataType \&gt;" alt="" coords="261,159,448,201"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1ClosureHandler.html" title="DepthSense::ClosureHandler\l\&lt; InterfaceType, DataType,\l ClosureDataType \&gt;" alt="" coords="525,5,715,61"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1FunctionHandler.html" title="DepthSense::FunctionHandler\l\&lt; InterfaceType, DataType \&gt;" alt="" coords="523,86,717,127"/>
+<area shape="rect" id="node5" href="$classDepthSense_1_1GenericFunctionHandler.html" title="DepthSense::GenericFunction\lHandler\&lt; InterfaceType,\l DataType, FunctionType \&gt;" alt="" coords="522,152,718,208"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1GenericMethodHandler.html" title="DepthSense::GenericMethod\lHandler\&lt; InterfaceType,\l DataType, ObjectType, MethodType \&gt;" alt="" coords="497,232,743,288"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1MethodHandler.html" title="DepthSense::MethodHandler\l\&lt; InterfaceType, DataType,\l ObjectType \&gt;" alt="" coords="526,312,714,368"/>
+</map>

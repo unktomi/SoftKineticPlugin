@@ -1,0 +1,7 @@
+<map id="DepthSense::Depth::SampleDataExImpl" name="DepthSense::Depth::SampleDataExImpl">
+<area shape="rect" id="node5" href="$classDepthSense_1_1Core_1_1DepthSampleDataServer.html" title="DepthSense::Core::DepthSample\lDataServer\&lt; DepthSense::Depth\l::SampleDataExImpl \&gt;" alt="" coords="42,261,256,317"/>
+<area shape="rect" id="node2" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="62,96,236,123"/>
+<area shape="rect" id="node3" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="5,13,136,40"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="161,6,295,47"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1Core_1_1DepthSampleDataExServer.html" title="DepthSense::Core::DepthSample\lDataExServer" alt="" coords="42,366,256,407"/>
+</map>

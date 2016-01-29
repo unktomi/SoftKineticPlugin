@@ -1,0 +1,11 @@
+<map id="DepthSense::Core::NodeServer" name="DepthSense::Core::NodeServer">
+<area shape="rect" id="node7" href="$classDepthSense_1_1Core_1_1AudioNodeServer.html" title="Base class for audio stream data sources. " alt="" coords="927,5,1126,46"/>
+<area shape="rect" id="node8" href="$classDepthSense_1_1Core_1_1ColorNodeServer.html" title="Base class for color stream data sources. " alt="" coords="929,70,1125,111"/>
+<area shape="rect" id="node9" href="$classDepthSense_1_1Core_1_1DepthNodeServer.html" title="Base class for depth stream data sources. " alt="" coords="927,135,1127,177"/>
+<area shape="rect" id="node10" href="$classDepthSense_1_1Core_1_1UnsupportedNode.html" title="Base class for unsupported sources. " alt="" coords="907,201,1146,228"/>
+<area shape="rect" id="node2" href="$classDepthSense_1_1Core_1_1CoreEvent_1_1Source.html" title="DepthSense::Core::CoreEvent\l::Source" alt="" coords="413,74,608,115"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1NodeImpl.html" title="DepthSense::NodeImpl" alt="" coords="433,140,588,167"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="190,140,365,167"/>
+<area shape="rect" id="node5" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="8,111,139,137"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="6,162,141,203"/>
+</map>

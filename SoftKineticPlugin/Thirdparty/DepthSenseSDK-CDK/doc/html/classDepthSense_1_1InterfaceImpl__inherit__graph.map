@@ -1,0 +1,50 @@
+<map id="DepthSense::InterfaceImpl" name="DepthSense::InterfaceImpl">
+<area shape="rect" id="node4" href="$classDepthSense_1_1Audio_1_1SampleDataImpl.html" title="DepthSense::Audio::\lSampleDataImpl" alt="" coords="470,329,613,370"/>
+<area shape="rect" id="node5" href="$classDepthSense_1_1BaseValueImpl.html" title="DepthSense::BaseValueImpl" alt="" coords="447,395,635,421"/>
+<area shape="rect" id="node24" href="$classDepthSense_1_1CalibrationImpl.html" title="DepthSense::CalibrationImpl" alt="" coords="448,649,635,676"/>
+<area shape="rect" id="node26" href="$classDepthSense_1_1Color_1_1SampleDataImpl.html" title="DepthSense::Color::\lSampleDataImpl" alt="" coords="472,701,611,742"/>
+<area shape="rect" id="node27" href="$classDepthSense_1_1ContextImpl.html" title="DepthSense::ContextImpl" alt="" coords="456,767,627,793"/>
+<area shape="rect" id="node29" href="$classDepthSense_1_1CyclicErrorCorrectionImpl.html" title="DepthSense::CyclicErrorCorrectionImpl" alt="" coords="417,817,665,844"/>
+<area shape="rect" id="node31" href="$classDepthSense_1_1Depth_1_1ButtonEventDataImpl.html" title="DepthSense::Depth::\lButtonEventDataImpl" alt="" coords="470,869,613,910"/>
+<area shape="rect" id="node33" href="$classDepthSense_1_1Depth_1_1IMUDataImpl.html" title="DepthSense::Depth::\lIMUDataImpl" alt="" coords="470,934,613,975"/>
+<area shape="rect" id="node35" href="$classDepthSense_1_1Depth_1_1SampleDataExImpl.html" title="DepthSense::Depth::\lSampleDataExImpl" alt="" coords="470,999,613,1041"/>
+<area shape="rect" id="node37" href="$classDepthSense_1_1Depth_1_1SampleDataImpl.html" title="DepthSense::Depth::\lSampleDataImpl" alt="" coords="470,1065,613,1106"/>
+<area shape="rect" id="node38" href="$classDepthSense_1_1DeviceImpl.html" title="DepthSense::DeviceImpl" alt="" coords="460,1131,623,1157"/>
+<area shape="rect" id="node40" href="$classDepthSense_1_1GradientDistortionCorrectionImpl.html" title="DepthSense::GradientDistortion\lCorrectionImpl" alt="" coords="439,1182,644,1223"/>
+<area shape="rect" id="node42" href="$classDepthSense_1_1NodeImpl.html" title="DepthSense::NodeImpl" alt="" coords="464,1307,619,1333"/>
+<area shape="rect" id="node48" href="$classDepthSense_1_1TemperatureCorrectionImpl.html" title="DepthSense::TemperatureCorrectionImpl" alt="" coords="413,1437,669,1464"/>
+<area shape="rect" id="node2" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="8,880,139,907"/>
+<area shape="rect" id="node3" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="6,931,141,973"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1BaseValueServer.html" title="DepthSense::BaseValueServer" alt="" coords="735,471,935,497"/>
+<area shape="rect" id="node13" href="$classDepthSense_1_1BoolParameterValueImpl.html" title="DepthSense::BoolParameter\lValueImpl" alt="" coords="741,6,928,47"/>
+<area shape="rect" id="node14" href="$classDepthSense_1_1FloatParameterValueImpl.html" title="DepthSense::FloatParameter\lValueImpl" alt="" coords="739,71,930,113"/>
+<area shape="rect" id="node15" href="$classDepthSense_1_1GPIOValueImpl.html" title="DepthSense::GPIOValueImpl" alt="" coords="739,369,930,396"/>
+<area shape="rect" id="node16" href="$classDepthSense_1_1HardwareVersionImpl.html" title="DepthSense::HardwareVersionImpl" alt="" coords="723,420,946,447"/>
+<area shape="rect" id="node17" href="$classDepthSense_1_1I2CArrayValueImpl.html" title="DepthSense::I2CArrayValueImpl" alt="" coords="731,521,939,548"/>
+<area shape="rect" id="node18" href="$classDepthSense_1_1IntParameterValueImpl.html" title="DepthSense::IntParameter\lValueImpl" alt="" coords="747,137,922,178"/>
+<area shape="rect" id="node19" href="$classDepthSense_1_1RegionOfInterestValueImpl.html" title="DepthSense::RegionOfInterest\lValueImpl" alt="" coords="736,202,933,243"/>
+<area shape="rect" id="node20" href="$classDepthSense_1_1RegisterValueImpl.html" title="DepthSense::RegisterValueImpl" alt="" coords="731,572,938,599"/>
+<area shape="rect" id="node21" href="$classDepthSense_1_1SystemCalibrationValueImpl.html" title="DepthSense::SystemCalibration\lValueImpl" alt="" coords="731,623,938,665"/>
+<area shape="rect" id="node22" href="$classDepthSense_1_1SystemInfoValueImpl.html" title="DepthSense::SystemInfoValueImpl" alt="" coords="723,268,946,295"/>
+<area shape="rect" id="node23" href="$classDepthSense_1_1SystemStateValueImpl.html" title="DepthSense::SystemStateValueImpl" alt="" coords="717,319,952,345"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1GPIOValueServer.html" title="DepthSense::GPIOValueServer" alt="" coords="1003,332,1205,359"/>
+<area shape="rect" id="node8" href="$classDepthSense_1_1HardwareVersionServer.html" title="DepthSense::HardwareVersion\lServer" alt="" coords="1005,383,1203,425"/>
+<area shape="rect" id="node9" href="$classDepthSense_1_1I2CArrayValueServer.html" title="DepthSense::I2CArrayValue\lServer" alt="" coords="1012,514,1196,555"/>
+<area shape="rect" id="node10" href="$classDepthSense_1_1ParameterValueServer.html" title="DepthSense::ParameterValue\lServer" alt="" coords="1007,449,1201,490"/>
+<area shape="rect" id="node11" href="$classDepthSense_1_1RegisterValueServer.html" title="DepthSense::RegisterValue\lServer" alt="" coords="1013,579,1195,621"/>
+<area shape="rect" id="node12" href="$classDepthSense_1_1SystemCalibrationValueServer.html" title="DepthSense::SystemCalibration\lValueServer" alt="" coords="1001,645,1207,686"/>
+<area shape="rect" id="node25" href="$classDepthSense_1_1CalibrationServer.html" title="DepthSense::CalibrationServer" alt="" coords="735,689,934,716"/>
+<area shape="rect" id="node28" href="$classDepthSense_1_1Core_1_1ContextServer.html" title="DepthSense::Core::Context\lServer" alt="" coords="744,741,925,782"/>
+<area shape="rect" id="node30" href="$classDepthSense_1_1CyclicErrorCorrectionServer.html" title="DepthSense::CyclicErrorCorrection\lServer" alt="" coords="723,806,947,847"/>
+<area shape="rect" id="node32" href="$classDepthSense_1_1Core_1_1ButtonEventDataServer.html" title="DepthSense::Core::Button\lEventDataServer" alt="" coords="747,871,922,913"/>
+<area shape="rect" id="node34" href="$classDepthSense_1_1Core_1_1IMUDataServer.html" title="DepthSense::Core::IMUData\lServer" alt="" coords="741,937,928,978"/>
+<area shape="rect" id="node36" href="$classDepthSense_1_1Core_1_1DepthSampleDataServer.html" title="DepthSense::Core::DepthSample\lDataServer\&lt; DepthSense::Depth\l::SampleDataExImpl \&gt;" alt="" coords="727,1003,942,1059"/>
+<area shape="rect" id="node39" href="$classDepthSense_1_1Core_1_1DeviceServer.html" title="A class holding the data related to a device. " alt="" coords="747,1099,922,1141"/>
+<area shape="rect" id="node41" href="$classDepthSense_1_1GradientDistortionCorrectionServer.html" title="DepthSense::GradientDistortion\lCorrectionServer" alt="" coords="732,1165,937,1206"/>
+<area shape="rect" id="node43" href="$classDepthSense_1_1AudioNodeImpl.html" title="DepthSense::AudioNodeImpl" alt="" coords="741,1383,929,1409"/>
+<area shape="rect" id="node44" href="$classDepthSense_1_1ColorNodeImpl.html" title="DepthSense::ColorNodeImpl" alt="" coords="742,1433,927,1460"/>
+<area shape="rect" id="node45" href="$classDepthSense_1_1Core_1_1NodeServer.html" title="DepthSense::Core::NodeServer" alt="" coords="733,1231,936,1257"/>
+<area shape="rect" id="node46" href="$classDepthSense_1_1DepthNodeImpl.html" title="DepthSense::DepthNodeImpl" alt="" coords="740,1281,929,1308"/>
+<area shape="rect" id="node47" href="$classDepthSense_1_1UnsupportedNodeImpl.html" title="DepthSense::UnsupportedNodeImpl" alt="" coords="721,1332,949,1359"/>
+<area shape="rect" id="node49" href="$classDepthSense_1_1TemperatureCorrectionServer.html" title="DepthSense::TemperatureCorrection\lServer" alt="" coords="719,1485,951,1526"/>
+</map>

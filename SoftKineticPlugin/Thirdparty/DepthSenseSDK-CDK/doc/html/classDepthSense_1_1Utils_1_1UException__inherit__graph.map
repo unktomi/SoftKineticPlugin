@@ -1,0 +1,7 @@
+<map id="DepthSense::Utils::UException" name="DepthSense::Utils::UException">
+<area shape="rect" id="node3" href="$classDepthSense_1_1Utils_1_1UFormatException.html" title="DepthSense::Utils::\lUFormatException" alt="" coords="341,5,475,46"/>
+<area shape="rect" id="node4" href="$classDepthSense_1_1Utils_1_1UInvalidOperationException.html" title="DepthSense::Utils::\lUInvalidOperationException" alt="" coords="318,70,498,111"/>
+<area shape="rect" id="node5" href="$classDepthSense_1_1Utils_1_1UIOException.html" title="DepthSense::Utils::\lUIOException" alt="" coords="341,135,475,177"/>
+<area shape="rect" id="node6" href="$classDepthSense_1_1Utils_1_1UNullMessageException.html" title="DepthSense::Utils::\lUNullMessageException" alt="" coords="326,201,490,242"/>
+<area shape="rect" id="node7" href="$classDepthSense_1_1Utils_1_1USystemException.html" title="DepthSense::Utils::\lUSystemException" alt="" coords="341,266,475,307"/>
+</map>
