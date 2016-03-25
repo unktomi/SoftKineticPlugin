@@ -1,8 +1,0 @@
-<map id="DepthSense::GPIOValueServer" name="DepthSense::GPIOValueServer">
-<area shape="rect" id="node2" href="$classDepthSense_1_1GPIOValueImpl.html" title="DepthSense::GPIOValueImpl" alt="" coords="5,245,195,272"/>
-<area shape="rect" id="node3" href="$classDepthSense_1_1BaseValueImpl.html" title="DepthSense::BaseValueImpl" alt="" coords="115,171,303,197"/>
-<area shape="rect" id="node7" href="$classDepthSense_1_1BaseValueServer.html" title="DepthSense::BaseValueServer" alt="" coords="220,245,420,272"/>
-<area shape="rect" id="node4" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="122,96,296,123"/>
-<area shape="rect" id="node5" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="65,13,196,40"/>
-<area shape="rect" id="node6" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="221,6,355,47"/>
-</map>

@@ -1,8 +1,0 @@
-<map id="DepthSense::PropertyBaseData" name="DepthSense::PropertyBaseData">
-<area shape="rect" id="node3" href="$classDepthSense_1_1PropertyData.html" title="DepthSense::PropertyData\&lt; T \&gt;" alt="" coords="445,5,653,32"/>
-<area shape="rect" id="node4" href="$classDepthSense_1_1PropertyData.html" title="DepthSense::PropertyData\l\&lt; Property\&lt; std::string \&gt; \&gt;" alt="" coords="461,57,638,98"/>
-<area shape="rect" id="node6" href="$classDepthSense_1_1PropertyData.html" title="DepthSense::PropertyData\l\&lt; PropertyType \&gt;" alt="" coords="461,126,638,167"/>
-<area shape="rect" id="node2" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="6,57,141,98"/>
-<area shape="rect" id="node5" href="$classDepthSense_1_1StringPropertyDataImpl.html" title="DepthSense::StringProperty\lDataImpl\&lt; InterfaceType \&gt;" alt="" coords="705,54,889,95"/>
-<area shape="rect" id="node7" href="$classDepthSense_1_1PropertyDataImpl.html" title="DepthSense::PropertyData\lImpl\&lt; PropertyType, Interface\lType \&gt;" alt="" coords="701,120,893,176"/>
-</map>

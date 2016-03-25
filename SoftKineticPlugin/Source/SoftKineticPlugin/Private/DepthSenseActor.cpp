@@ -818,8 +818,16 @@ public:
 		depthNode.setEnableFilter6(Filters.Filter6.bEnable);
 		depthNode.setEnableFilter7(Filters.Filter7.bEnable);
 		depthNode.setEnableFilter8(Filters.Filter8.bEnable);
+		depthNode.setEnableFilter1(Filters.Filter1.bEnable);
+		depthNode.setEnableFilter2(Filters.Filter2.bEnable);
+		depthNode.setEnableFilter3(Filters.Filter3.bEnable);
+		depthNode.setEnableFilter4(Filters.Filter4.bEnable);
+		//depthNode.setEnableFilter5(Filters.Filter5.bEnable);
+		//depthNode.setEnableFilter6(Filters.Filter6.bEnable);
+		//depthNode.setEnableFilter7(Filters.Filter7.bEnable);
+		depthNode.setEnableFilter8(Filters.Filter8.bEnable);
 		depthNode.setEnableFilter9(Filters.Filter9.bEnable);
-		depthNode.setEnableFilter10(Filters.Filter10.bEnable);
+		//depthNode.setEnableFilter10(Filters.Filter10.bEnable);
 
 		depthNode.setFilter1Parameter1(Filters.Filter1.Parameter1);
 		depthNode.setFilter1Parameter2(Filters.Filter1.Parameter2);
@@ -833,16 +841,16 @@ public:
 		depthNode.setFilter3Parameter3(Filters.Filter3.Parameter3);
 
 		depthNode.setFilter4Parameter1(Filters.Filter4.Parameter1);
-		
-		depthNode.setFilter5Parameter1(Filters.Filter5.Parameter1);
-		
-		depthNode.setFilter6Parameter1(Filters.Filter6.Parameter1);
-		depthNode.setFilter6Parameter2(Filters.Filter6.Parameter2);
-		depthNode.setFilter6Parameter3(Filters.Filter6.Parameter3);
-		depthNode.setFilter6Parameter4(Filters.Filter6.Parameter4);
 
-		depthNode.setFilter7Parameter1(Filters.Filter7.Parameter1);
-		depthNode.setFilter7Parameter2(Filters.Filter7.Parameter2);
+		//depthNode.setFilter5Parameter1(Filters.Filter5.Parameter1);
+
+		//depthNode.setFilter6Parameter1(Filters.Filter6.Parameter1);
+		//depthNode.setFilter6Parameter2(Filters.Filter6.Parameter2);
+		//depthNode.setFilter6Parameter3(Filters.Filter6.Parameter3);
+		//depthNode.setFilter6Parameter4(Filters.Filter6.Parameter4);
+
+		//depthNode.setFilter7Parameter1(Filters.Filter7.Parameter1);
+		//depthNode.setFilter7Parameter2(Filters.Filter7.Parameter2);
 
 		depthNode.setFilter8Parameter1(Filters.Filter8.Parameter1);
 
@@ -851,10 +859,10 @@ public:
 		depthNode.setFilter9Parameter3(Filters.Filter9.Parameter3);
 		depthNode.setFilter9Parameter4(Filters.Filter9.Parameter4);
 
-		depthNode.setFilter10Parameter1(Filters.Filter10.Parameter1);
-		depthNode.setFilter10Parameter2(Filters.Filter10.Parameter2);
-		depthNode.setFilter10Parameter3(Filters.Filter10.Parameter3);
-		depthNode.setFilter10Parameter4(Filters.Filter10.Parameter4);
+		//depthNode.setFilter10Parameter1(Filters.Filter10.Parameter1);
+		//depthNode.setFilter10Parameter2(Filters.Filter10.Parameter2);
+		//depthNode.setFilter10Parameter3(Filters.Filter10.Parameter3);
+		//depthNode.setFilter10Parameter4(Filters.Filter10.Parameter4);depthNode.setEnableFilter9(Filters.Filter9.bEnable);
 		context.releaseControl(depthNode);
 
 	}

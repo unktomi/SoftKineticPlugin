@@ -1,9 +1,0 @@
-<map id="DepthSense::Utils::Threading::Runnable" name="DepthSense::Utils::Threading::Runnable">
-<area shape="rect" id="node2" href="$classDepthSense_1_1Core_1_1DeviceManager.html" title="DepthSense::Core::Device\lManager" alt="" coords="227,5,402,46"/>
-<area shape="rect" id="node3" href="$classDepthSense_1_1Core_1_1Streamer.html" title="DepthSense::Core::Streamer" alt="" coords="220,71,409,97"/>
-<area shape="rect" id="node4" href="$classDepthSense_1_1Core_1_1Task.html" title="A class defining a Task to be performed on a NodeServer. " alt="" coords="233,121,397,148"/>
-<area shape="rect" id="node5" href="$classDepthSense_1_1IPC_1_1ConnectionListener.html" title="This class is a Runnable. " alt="" coords="217,173,412,214"/>
-<area shape="rect" id="node6" href="$classDepthSense_1_1IPC_1_1Demultiplexer.html" title="Class Demultiplexer. " alt="" coords="210,239,419,265"/>
-<area shape="rect" id="node7" href="$classDepthSense_1_1IPC_1_1ServerRunnable.html" title="DepthSense::IPC::ServerRunnable" alt="" coords="205,289,425,316"/>
-<area shape="rect" id="node8" href="$classNewSampleReceivedEventsGenerator.html" title="NewSampleReceivedEventsGenerator" alt="" coords="195,340,434,367"/>
-</map>

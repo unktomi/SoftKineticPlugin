@@ -1,5 +1,0 @@
-<map id="DepthSense::Calc::DataProcessor" name="DepthSense::Calc::DataProcessor">
-<area shape="rect" id="node2" href="$classDepthSense_1_1Calc_1_1DepthNodeDataProcessor.html" title="DepthSense::Calc::DepthNode\lDataProcessor" alt="" coords="275,5,474,46"/>
-<area shape="rect" id="node3" href="$classDepthSense_1_1Calc_1_1GenericAudioNodeDataProcessor.html" title="DepthSense::Calc::Generic\lAudioNodeDataProcessor" alt="" coords="285,70,465,111"/>
-<area shape="rect" id="node4" href="$classDepthSense_1_1Calc_1_1GenericColorNodeDataProcessor.html" title="DepthSense::Calc::Generic\lColorNodeDataProcessor" alt="" coords="285,135,465,177"/>
-</map>

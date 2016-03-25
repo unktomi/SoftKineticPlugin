@@ -1,9 +1,0 @@
-<map id="DepthSense::BoolParameterValueServer" name="DepthSense::BoolParameterValueServer">
-<area shape="rect" id="node2" href="$classDepthSense_1_1BoolParameterValueImpl.html" title="DepthSense::BoolParameter\lValueImpl" alt="" coords="5,321,192,362"/>
-<area shape="rect" id="node3" href="$classDepthSense_1_1BaseValueImpl.html" title="DepthSense::BaseValueImpl" alt="" coords="91,171,279,197"/>
-<area shape="rect" id="node8" href="$classDepthSense_1_1BaseValueServer.html" title="DepthSense::BaseValueServer" alt="" coords="193,245,393,272"/>
-<area shape="rect" id="node4" href="$classDepthSense_1_1InterfaceImpl.html" title="DepthSense::InterfaceImpl" alt="" coords="98,96,272,123"/>
-<area shape="rect" id="node5" href="$classDSI_1_1InstanceBase.html" title="DSI::InstanceBase" alt="" coords="41,13,172,40"/>
-<area shape="rect" id="node6" href="$classDepthSense_1_1Utils_1_1Refcounted.html" title="DepthSense::Utils::\lRefcounted" alt="" coords="197,6,331,47"/>
-<area shape="rect" id="node7" href="$classDepthSense_1_1ParameterValueServer.html" title="DepthSense::ParameterValue\lServer" alt="" coords="216,321,411,362"/>
-</map>
